@@ -19,7 +19,7 @@ cd $TMPDIR
 wget https://github.com/OpenVPN/easy-rsa/archive/release/2.x/master.zip
 unzip master.zip
 mkdir -p /etc/openvpn/easy-rsa/
-cp -rp easy-rsa-master/easy-rsa/2.0/* /etc/openvpn/easy-rsa/
+cp -rp easy-rsa-release-2.x/easy-rsa/2.0/* /etc/openvpn/easy-rsa/
 rm -rf master
 popd 
 
