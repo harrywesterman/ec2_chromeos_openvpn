@@ -70,7 +70,7 @@ ifconfig-pool-persist ipp.txt
 keepalive 10 120
 persist-key
 persist-tun
-status openvpn-status.log/proc/sys/net/ipv4/ip_forward
+status openvpn-status.log
 verb 6
 #plugin /usr/lib/openvpn/plugin/lib/openvpn-auth-pam.so login
 #client-cert-not-required
