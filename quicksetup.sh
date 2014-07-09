@@ -10,7 +10,7 @@ then
 fi
 
 echo "Downloading..."
-curl https://nodeload.github.com/royans/ec2_chromeos_openvpn/zip/master > m.zip 2> /dev/null
+curl https://nodeload.github.com/harrywesterman/ec2_chromeos_openvpn/zip/master > m.zip 2> /dev/null
 rm -rf ec2_chromeos_openvpn-master 2> /dev/null
 unzip m.zip
 rm m.zip
