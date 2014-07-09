@@ -16,8 +16,8 @@ mkdir -p $TMPDIR
 pushd `pwd`
 cd $TMPDIR
 # wget https://github.com/OpenVPN/easy-rsa/archive/master.zip
-wget https://github.com/OpenVPN/easy-rsa/archive/release/2.x.zip
-unzip master
+wget https://github.com/OpenVPN/easy-rsa/archive/release/2.x/master.zip
+unzip easy-rsa-release-2.x.zip
 mkdir -p /etc/openvpn/easy-rsa/
 cp -rp easy-rsa-master/easy-rsa/2.0/* /etc/openvpn/easy-rsa/
 rm -rf master
